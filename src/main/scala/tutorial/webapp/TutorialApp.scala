@@ -16,5 +16,7 @@ object TutorialApp {
 
   def addClickedMessage(): Unit = {
     $("body").append("<p>You clicked the button!</p>")
+    val d = Data(5)
+    println(d.count)
   }
 }
